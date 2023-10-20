@@ -8,6 +8,24 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 10px 20px 10px rgba(0,0,0,0.25);
+    position: relative;
+    font-weight: 500px;
+}
+
+h2 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
 
 body {
     margin: 0;
@@ -25,7 +43,7 @@ body {
 .navlink {
     font-size: 24px;
     text-decoration: none;
-    color: var(--header-color);
+    color: black;
     padding-left: 85px;
     text-transform: lowercase;
 }
@@ -33,9 +51,31 @@ body {
 .name {
     font-size: 32px;
     text-decoration: none;
-    color: blue;
-    text-transform: capitalize;
+    color: black;
+    text-transform: uppercase;
     text-shadow: 0 4px 4px rgba(0,0,0,0.25);
     padding-left: 21px;
-    font-weight: 500px;
+    font-weight: 800px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding: 15px 21px;
+}
+
+.main-content {
+    background-image: url('../img/splash.jpg');
+    max-width: 2000px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+
 }
