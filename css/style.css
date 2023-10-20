@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;300;400;500;800&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+    height: 100vh;
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 460px;
+}
+
+.navlink {
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--header-color);
+    padding-left: 85px;
+    text-transform: lowercase;
+}
+
+.name {
+    font-size: 32px;
+    text-decoration: none;
+    color: blue;
+    text-transform: capitalize;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    padding-left: 21px;
+    font-weight: 500px;
+}
